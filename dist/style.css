@@ -1,0 +1,29 @@
+:root{
+    background-color: rgb(17, 24, 39);
+    color: white;
+}
+.headline{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;   
+    gap: 50px;
+    align-items: center;
+}
+.headline > div{
+    border-radius: 10px;
+    background-color: rgb(31, 41, 55);
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.button:hover{
+    border-radius: 10px;
+    background-color: rgb(35, 47, 63);
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.button.highlight{
+    background-color: rgb(35, 47, 63);
+}
